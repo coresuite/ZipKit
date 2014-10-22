@@ -86,7 +86,6 @@ const NSUInteger ZKMaxEntriesPerFetch = 40;
 	}
 #pragma GCC diagnostic warning "-Wdeprecated-declarations"
 #else
-	// TODO: maybe fix this for non-Mac targets
 	size = 0;
 	count = 0;
 #endif
