@@ -446,7 +446,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB6F0AA217484BDE00F91524 /* Build configuration list for PBXNativeTarget "touchzipkit" */;
 			buildPhases = (
-				21FD118B1A3B362200AEEF49 /* ShellScript */,
 				CB6F0A9417484BDE00F91524 /* Sources */,
 				CB6F0A9517484BDE00F91524 /* Frameworks */,
 				CB6F0A9617484BDE00F91524 /* CopyFiles */,
@@ -498,22 +497,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		21FD118B1A3B362200AEEF49 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "echo \"hockey id: $HOCKEY_ID\";\necho \"hockey id: ${HOCKEY_ID}\";\necho \"hockey id: $(HOCKEY_ID)\";";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB6F09C9174838FC00F91524 /* Sources */ = {
