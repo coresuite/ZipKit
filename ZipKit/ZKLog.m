@@ -75,7 +75,7 @@ static ZKLog *zkSharedInstance = nil;
 	return zkSharedInstance;
 }
 
-- (id) init {
+- (instancetype) init {
 	@synchronized([self class]) {
 		if (zkSharedInstance == nil) {
 			if (self = [super init]) {
