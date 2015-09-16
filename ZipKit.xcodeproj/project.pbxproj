@@ -465,7 +465,7 @@
 		CB6F09C5174838FC00F91524 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Karl Moskowski";
 			};
 			buildConfigurationList = CB6F09C8174838FC00F91524 /* Build configuration list for PBXProject "ZipKit" */;
@@ -589,6 +589,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -649,6 +650,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZipKit/ZipKit-Prefix.pch";
 				INFOPLIST_FILE = "ZipKit/ZipKit-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voodooergonomics.ZipKitFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -665,6 +667,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZipKit/ZipKit-Prefix.pch";
 				INFOPLIST_FILE = "ZipKit/ZipKit-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voodooergonomics.ZipKitFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
